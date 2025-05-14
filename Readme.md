@@ -109,8 +109,8 @@ Here is a picture of the OLED display showing the "home page" which shows the cu
 Here is a picture of the OLED display showing the "server page" which shows the server name, wake/sleep times and the current status of the server.
 ![OLED Display Server Page](PXL_20250514_171359994.jpg)
 
-Here is a video showing the OLED display in action, cycling through the different pages.
-![Video](https://youtu.be/HXzGBh8EG5U)
+Here is a video showing the OLED display in action, cycling through the different pages. [Video](https://youtu.be/HXzGBh8EG5U)
+
 
 ### Web Interface
 Here is a screenshot of the web interface showing the home page with the list of servers and their status.
