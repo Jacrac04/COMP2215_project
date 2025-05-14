@@ -1,0 +1,5 @@
+.vscode/
+comp_wake_time/
+comp_wake_time_2/
+Pico-OLED-1.3(spi).py
+test_blink.py
