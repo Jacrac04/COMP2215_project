@@ -2,18 +2,18 @@
 
 ## 📘 Project Overview
 
-Recently I switched out my Raspberry pi home server for some old PCs. During setup and testing, they are running in my bedroom, so each night I had to turn them of and restart them the following morning. However this lead to a problem, as A student often running late I would forget to turn them on before I left then wouldn't be able to access files on them all day while on campus. So I decided to build a small microcontroller based system that would allow me to set a time for the server to turn on and off automatically.
+Recently I switched out my Raspberry pi home server for some old PCs. During setup and testing, they are running in my bedroom, so each night I had to turn them of and restart them the following morning. However this lead to a problem, as a student often running late I would forget to turn them on before I left then wouldn't be able to access files on them all day while on campus. So I decided to build a small microcontroller based system that would allow me to set a time for the server to turn on and off automatically.
 
 ## 🚀 My Solution
 
 To solve this, I’ve built a **Raspberry Pi Pico W based system** running MicroPython that:
 - Connects to WiFi Network
 - Syncs time with an NTP server
-- Hosts a small web server where you can add servers
-- Each server has a wake/sleep time
+- Hosts a small web server where you can add "servers "
+- Each "server" has a wake/sleep time
 - Periodically checks the current time
-- Sends an HTTP POST request to a specific endpoint to **shut down the old PCs remotely** when it’s past the defined sleep time
-- Pulses a GPIO pin to "press" the power button on the PCs
+- Sends an HTTP POST request to a specific endpoint to **shut down the "server"** when it’s past the defined sleep time
+- Pulses a GPIO pin to "press" the power button on the "server"
 - Display to show simple information
 - Buttons to change what the display shows
 
