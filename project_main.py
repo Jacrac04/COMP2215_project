@@ -18,6 +18,7 @@ SCK = 10
 CS = 9
 
 
+# This class is from Pico_OLED_code.7z\Pico-code\Python\Pico-OLED-1.3\Pico-OLED-1.3(spi).py from https://files.waveshare.com/upload/5/5a/Pico_code.7z
 class OLED_1inch3(framebuf.FrameBuffer):
     def __init__(self):
         self.width = 128
