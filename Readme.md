@@ -53,6 +53,9 @@ It would also be good to add persistent storage to save the server list and thei
 
 Also adding a system settings page to change settings like display sleep and the time interval for checking the server status would be useful.
 
+I would also like to limit the port selection to only the ports that are available on the board.
+
+
 ## 📦 Hardware Requirement
 - Raspberry Pi Pico W
 - 1.3" OLED Display
