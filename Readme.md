@@ -1,4 +1,4 @@
-# Time-Based Remote Server Shutdown Controller
+# Time-Based Server Shutdown Controller
 
 ## 📘 Project Overview
 
